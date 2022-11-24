@@ -14,3 +14,15 @@ This project is done as the final IoT project for "Iot Apllication System Class"
 - That is, the bounding boxes are (x, y) co-ordinates of the objects in an image. 
 - Once the co-ordinates are obtained by our SSD, the tracker computes the centroid (center) of the box. In other words, the center of an object.
 - Then an unique ID is assigned to every particular object deteced, for tracking over the sequence of frames.
+
+## Running the code in Raspberry Pi(worked well with Pi3 model B)
+-First of all, install OpenCV-Python Environment in Raspberry Pi:
+    - Usually takes around 3-4 hours.
+    $ https://pimylifeup.com/raspberry-pi-opencv/
+- Install all the required Python dependencies:
+'''
+pip install -r requirements.txt
+
+'''
+    -Highly advised to install dependencies in python virtual Environment:
+      -more on : '''https://docs.python.org/3/library/venv.html'''
