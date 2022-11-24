@@ -27,7 +27,8 @@ https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-
 - Usually takes around 3-4 hours.
 https://pimylifeup.com/raspberry-pi-opencv/
 '''
-- Install all the required Python dependencies:
+
+#Install all the required Python dependencies:
 '''
 pip install -r requirements.txt
 '''
