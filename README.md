@@ -22,13 +22,12 @@ https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-
 '''
 
 ## Running the code in Raspberry Pi(worked well with Pi3 model B)
-- First of all, install OpenCV-Python Environment in Raspberry Pi:
+- First of all, install OpenCV-Python Environment in Raspberry Pi:(Usually takes around 3-4 hours.)
 '''
-- Usually takes around 3-4 hours.
 https://pimylifeup.com/raspberry-pi-opencv/
 '''
 
-#Install all the required Python dependencies:
+-Install all the required Python dependencies:
 '''
 pip install -r requirements.txt
 '''
