@@ -39,4 +39,28 @@ pip install -r requirements.txt
 python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4
 ```
 
-((works with both) raspberry pi camera oo usb camera connected to raspberry pi(works with both))
+>  (works with both raspberry pi camera oo usb camera connected to raspberry pi.
+
+
+## Features
+**Real-time Alert via email address
+- sender's email address and password is changed in "mylib/mailer.py" and receiver's email address can be changed in "my_lib/config.py" easily.
+
+**Scheduler
+- Automatic scheduler to start the software. Configure to run at every second, minute, day, or Monday to Friday.
+
+**Timer
+- All you have to do is set your desired time and run the script. (inside start.py)
+
+**Automatic data saver
+-saves all the date in ".csv" format in "mylib/log.csv" after the program ended.
+
+## Refernces
+-Mainly this project was actually motivated from:
+'''
+https://github.com/saimj7/People-Counting-in-Real-Time 
+'''
+-which was motivated from:
+'''
+https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
+'''
