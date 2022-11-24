@@ -7,8 +7,10 @@ class Mailer:
 
     """
     def __init__(self):
-        self.EMAIL = "jamesganiev227@gmail.com"
-        self.PASS = "wzcbduietbgbfwne"
+        # WRITE THE SENDER'S email address here:
+        self.EMAIL = ""
+        #the password for the email address || Create an app inside your google acount and write tha google generated password here:
+        self.PASS = ""
 
     def send(self, mail):
 
