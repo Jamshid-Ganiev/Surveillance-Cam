@@ -56,11 +56,11 @@ python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobi
 -saves all the date in ".csv" format in "mylib/log.csv" after the program ended.
 
 ## Refernces
--Mainly this project was actually motivated from:
-'''
+- Mainly this project was actually motivated from:
+"""
 https://github.com/saimj7/People-Counting-in-Real-Time 
-'''
--which was motivated from:
-'''
+"""
+- which was motivated from:
+"""
 https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
-'''
+"""
