@@ -1,4 +1,4 @@
-# Counting-People-in-Real-Tme-Using-OpenCV
+# Counting-People-in-Real-Tme-Using-OpenCV-Python-in-Raspberry-Pi3-modelB
 The use case of this project is to count the number of visitors who are heading in or out in a particular store/ building/ shopping mall/ class room in real-time.
 
 This project is done as the final IoT project for "Iot Apllication System Class"(Professor: Vijay Kakani) by the 'GiGa' team consisted of 4 undergraduate students majoring in ISE(Integrated System Engineering) department. (Fall semester in 2022).
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 -To run the code in real-time video , use the following command:
 ```
-python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4
+python start.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
 ```
 
 >  (works with both raspberry pi camera oo usb camera connected to raspberry pi.
@@ -64,3 +64,4 @@ https://github.com/saimj7/People-Counting-in-Real-Time
 """
 https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
 """
+-Special thanks to : -->saimj7.github.io
