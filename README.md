@@ -33,3 +33,10 @@ pip install -r requirements.txt
 ```
 >    -Highly advised to install dependencies in python virtual Environment:
       -more on : '''https://docs.python.org/3/library/venv.html'''
+
+-To run the code in real-time video , use the following command:
+```
+python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4
+```
+
+((works with both) raspberry pi camera oo usb camera connected to raspberry pi(works with both))
