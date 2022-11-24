@@ -28,8 +28,8 @@ https://pimylifeup.com/raspberry-pi-opencv/
 '''
 
 -Install all the required Python dependencies:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 >    -Highly advised to install dependencies in python virtual Environment:
       -more on : '''https://docs.python.org/3/library/venv.html'''
