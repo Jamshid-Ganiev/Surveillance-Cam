@@ -64,4 +64,4 @@ https://github.com/saimj7/People-Counting-in-Real-Time
 """
 https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
 """
--Special thanks to : -->saimj7.github.io
+-Special thanks to : -->Sai_Mj
