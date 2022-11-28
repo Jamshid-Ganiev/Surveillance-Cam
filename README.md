@@ -42,7 +42,7 @@ python start.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mo
 >  (works with both raspberry pi camera oo usb camera connected to raspberry pi.
 
 
-## Features
+# Features
 ### Real-time Alert via email address
 - sender's email address and password is changed in "mylib/mailer.py" and receiver's email address can be changed in "my_lib/config.py" easily.
 
