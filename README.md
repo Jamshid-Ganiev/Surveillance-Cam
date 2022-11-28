@@ -55,6 +55,8 @@ python start.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mo
 ### Automatic data saver
 -saves all the date in ".csv" format in "mylib/log.csv" after the program ended.
 
+## (MAIN FEATURE) Real-time Alert via SMS message
+
 ### Refernces
 - Mainly this project was actually motivated from:
 """
