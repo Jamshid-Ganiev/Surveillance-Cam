@@ -46,16 +46,16 @@ python start.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mo
 ### Real-time Alert via email address
 - sender's email address and password is changed in "mylib/mailer.py" and receiver's email address can be changed in "my_lib/config.py" easily.
 
-## Scheduler
+### Scheduler
 - Automatic scheduler to start the software. Configure to run at every second, minute, day, or Monday to Friday.
 
-## Timer
+### Timer
 - All you have to do is set your desired time and run the script. (inside start.py)
 
-## Automatic data saver
+### Automatic data saver
 -saves all the date in ".csv" format in "mylib/log.csv" after the program ended.
 
-## Refernces
+### Refernces
 - Mainly this project was actually motivated from:
 """
 https://github.com/saimj7/People-Counting-in-Real-Time 
