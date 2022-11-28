@@ -13,7 +13,7 @@ SD paper: https://arxiv.org/abs/1512.02325
 MobileNet paper: https://arxiv.org/abs/1704.04861
 '''
 ---
-**Centroid tracker:**
+** Centroid tracker: **
 - Centroid tracker is one of the most reliable trackers out there.
 - Then an unique ID is assigned to every particular object deteced, for tracking over the sequence of frames.
 - For more info:
