@@ -56,6 +56,7 @@ python start.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mo
 -saves all the date in ".csv" format in "mylib/log.csv" after the program ended.
 
 ## Real-time Alert via SMS message || (main feature)
+- using Twilio API
 
 ### Refernces
 - Mainly this project was actually motivated from:
