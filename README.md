@@ -58,7 +58,7 @@ python start.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mo
 ## Real-time Alert via SMS message || (main feature)
 - using Twilio API
 
-### Refernces
+### References
 - Mainly this project was actually motivated from:
 """
 https://github.com/saimj7/People-Counting-in-Real-Time 
