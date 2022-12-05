@@ -10,13 +10,13 @@ This project is done as the final IoT project for "Iot Apllication System Class"
 - Compared to other 2 shot detectors such as R-CNN, SSD is quite fast.
 - - For more info:
 '''
-SD paper: https://arxiv.org/abs/1512.02325
+SSD paper: https://arxiv.org/abs/1512.02325
 MobileNet paper: https://arxiv.org/abs/1704.04861
 '''
 ---
 ** Centroid tracker: **
 - Centroid tracker is one of the most reliable trackers out there.
-- Then an unique ID is assigned to every particular object deteced, for tracking over the sequence of frames.
+- Then a unique ID is assigned to every particular object deteced, for tracking over the sequence of frames.
 - For more info:
 '''
 https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-851a94607d11
