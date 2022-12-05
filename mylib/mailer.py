@@ -38,7 +38,7 @@ class SMSMailer:
         client = Client(self.account_sid, self.auth_token)
 
         message = client.messages.create(
-            body="People Limit exceeded in the building!",
+            body=f"[Over {config.LIMIT}]People Limit exceeded in the building!",
             from_=self.number,
             to=phone_number
         )
