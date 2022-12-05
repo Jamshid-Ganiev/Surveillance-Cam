@@ -3,6 +3,7 @@ from mylib.trackableobject import TrackableObject
 from imutils.video import VideoStream
 from imutils.video import FPS
 from mylib.mailer import Mailer
+from mylib.mailer import SMSMailer
 from mylib import config, thread
 import time, schedule, csv
 import numpy as np
@@ -33,10 +34,10 @@ def run():
 
 	# initialize the list of class labels MobileNet SSD was trained to
 	# detect
-	CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
-		"bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
-		"dog", "horse", "motorbike", "person", "pottedplant", "sheep",
-		"sofa", "train", "tvmonitor"]
+	#CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
+		#"bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
+		#"dog", "horse", "motorbike", "person", "pottedplant", "sheep",
+		#"sofa", "train", "tvmonitor"]
 
 	# load our serialized model from disk
 	net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
@@ -238,8 +239,10 @@ def run():
 							cv2.putText(frame, "-ALERT: People limit exceeded-", (10, frame.shape[0] - 80),
 								cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 255), 2)
 							if config.ALERT:
+								print("[INFO] Sending SMS alert..")
+								SMSMailer().send(config.MANAGER_PHONE)
 								print("[INFO] Sending email alert..")
-								Mailer().send(config.MAIL)
+								Mailer().send(config.WORKERS_EMAIL)
 								print("[INFO] Alert sent")
 
 						to.counted = True
