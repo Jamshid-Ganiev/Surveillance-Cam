@@ -1,7 +1,11 @@
 #===============================================================================
 #===============================================================================
-# write the receiver's email address here:
+# sender's email address
 MAIL = ''
+
+#Enter manager's phone number
+MANAGER_PHONE =''
+WORKERS_EMAIL = []
 
 #Set max. people inside limit. Optimise number below: 10, 50, 100, etc.
 LIMIT=5
